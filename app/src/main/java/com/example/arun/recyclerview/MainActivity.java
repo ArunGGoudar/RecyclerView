@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements PersonAdapter.Ite
 
       //  layoutManager = new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false);
 
+        // This is show the item in Grid View
         layoutManager = new GridLayoutManager(this,2,GridLayoutManager.VERTICAL,false);
 
         recyclerView.setLayoutManager(layoutManager);
